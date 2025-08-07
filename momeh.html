@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>HACK4FUTO ATTENDEE FORM</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f8f8f8;
+        display: flex;
+        justify-content: center;
+        padding: 40px;
+      }
+
+      .form-container {
+        width: 500px;
+        background: white;
+        border-radius: 8px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        padding: 24px;
+      }
+
+      .header {
+        font-size: 22px;
+        font-weight: bold;
+        text-align: left;
+        color: #202124;
+        margin-bottom: 8px;
+      }
+
+      .purple-line {
+        height: 5px;
+        width: 100%;
+        background-color: #673ab7; /* Deep Purple */
+        border-radius: 4px;
+        margin-bottom: 24px;
+      }
+
+      label {
+        display: block;
+        font-size: 14px;
+        font-weight: bold;
+        margin-bottom: 6px;
+        color: #202124;
+      }
+
+      input[type="text"] {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #dadce0;
+        border-radius: 4px;
+        font-size: 14px;
+      }
+
+      .required {
+        color: red;
+        margin-left: 4px;
+      }
+
+      .note {
+        font-size: 12px;
+        color: #5f6368;
+        margin-top: 8px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="form-container">
+      <div class="header">HACK4FUTO ATTENDEE FORM</div>
+      <div class="purple-line"></div>
+
+      <form>
+        <label for="name">NAME <span class="required">*</span></label>
+        <input type="text" id="name" name="name" required />
+
+        <div class="note">* Indicates required question</div>
+      </form>
+    </div>
+  </body>
+</html>

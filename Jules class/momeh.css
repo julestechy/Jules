@@ -1,0 +1,11 @@
+body {
+  background-color: lightgray;
+  width: 100%;
+}
+ul {
+  height: 100%;
+  color: olive;
+}
+p {
+  padding-left: 10%;
+}

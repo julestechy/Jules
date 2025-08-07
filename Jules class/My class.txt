@@ -1,0 +1,77 @@
+Software development-
+1) Frontend - The stuff that you see and interect with: HTML, CSS and JS
+2) Backend - everything else
+3) UIX designer 
+
+Frontend classified into three types (the one we are learning for now) - the visible part of web pages you can see
+Html - hypertext markup language (it is not a programming language but a markup language for web pages) - it describes what a website will look like
+It defines the structure of a webpage
+
+Css - cascarding style sheet (used to beautify web pages). 
+It decribes the style of HTML eg make all the text purple, give the first image yellow boarder
+
+Javascript stands alone. it is the main programming language of frontend.
+JS adds logic and interactivity to a page. eg: do some maths, chnage color when the user clicks, load new data from twitter. it is the actions of a webpage.
+- HTML and CSS only create the structure and style of a webpage, but JavaScript adds life by making the page interactive and dynamic.
+
+the html is divided into head and body part
+features of HTML
+`Tag - eg:<hi></h1>
+`Element - tag+content. eg:<hi>This is my first tag</h1>
+
+Difference between Block display type and inline display element:
+Block elements take up the full width, start on a new line, and allow setting width and height (e.g., <div>, <p>, <h>).
+it does not accomodate anybody, it takes 100% of its width
+
+Inline elements only take up as much space as their content, stay in line with other elements, and don’t allow setting width or height (e.g., <span>, <a>).
+
+What is self enclosing tag? it does not have a closing tag. Eg: <br/, <img
+
+
+- Heading - <hi>-<h6>
+- Paragraph - <p> or <span>
+- Bold - <strong> or <b>
+- Italicize (italics) - <em> or <i>
+- List (numbering) - <ol> or <ul> and then add <li> in between <ol>&</ol>. 
+<ol> is for numbers while <ul> is for bullet points.
+- Breaking point - <br>
+- Dividing - <div>
+- Comment - <!-- or control /
+- Group small parts of text or elements  - <span>
+- Subcript text - <sub>
+- Superscript text - <sup>
+
+CSS - Cascarding style sheet
+We have three ways of using CSS:
+1. Inline styling
+2. Internal styling
+3. External styling
+
+Inline - is a way we style our HTML document inside the HTML tag. you can only style the body
+Internal - all the styling is done in the head tag, you introduce {} to tell it which tag you are trying to style
+External - this is where you create a new file for css and linking it to the HTML. you dont need to introduce 'style' because its already saved as css. Just do your thing on the css file, 
+then go to HTML and link it using 'link' tag.
+
+its preferable to use external styling to make your html not to be bulky.
+
+Things you need to know in CSS
+Note: 16px = 1rem. 
+- px means Pixel
+- rem means Root em
+In CSS, px (pixels) are a fixed, absolute unit of measurement, while rem (root em) is a relative unit tied to the font size of the root element (usually the <html> element). 
+Essentially, 1rem is equal to the root element's font size, which is typically 16px by default. 
+This means that 16px = 1rem in most browsers, but the rem value can change if the root font size is modified. 
+- vw means Width 
+- vh means height
+- % - This is mostly used for height and width. It is advisible to use %
+The difference between vw/vh and % is vw/vh are useful for responsive designs where you want elements to scale directly with the browser window size.
+% is useful for creating layouts where elements' sizes are dependent on their containing elements.
+- Padding - padding is used to create space around an element's content, inside of any defined borders.
+- Margin - to create space around elements, outside of any defined borders
+Difference between padding and margin is Margin is the space outside of a page element. Padding defines the space surrounding content within a web element. 
+Margin controls the distance between separate elements on the page. Padding sets the distance between the content and the borders of its containing element.
+
+You can choose to write it in shorthand where two sides are equal like padding 100px 50px where 100px is for top and botton, 50px is for left and right
+or shorthand where it is displayed in four sides like this = padding 10px 20px 30px 40px, where 10px is for top 20px for right, 30px for bottom, 40px for left because it moves in clockwise direction
+or like this - padding-right, padding-left, padding-top, padding-bottom
+
